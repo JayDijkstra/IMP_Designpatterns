@@ -1,0 +1,50 @@
+bin
+obj
+Obj
+TestResults
+test-results
+*.csproj.user
+*.suo
+*.cache
+
+*~
+*.swp
+*.userprefs
+*.pidb
+
+# compile settings, solution and project
+# dit moet wel naar github om het project meteen te kunnen openen in xamarin
+# *.sln
+# *.csproj
+# Properties
+
+# dit is monogame
+packages
+
+#User Specific
+*.userprefs
+*.usertasks
+
+#Mono Project Files
+*.pidb
+*.resources
+test-results/
+
+# mac system files
+.DS_Store
+*.DS_Store
+*/.DS_Store
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
