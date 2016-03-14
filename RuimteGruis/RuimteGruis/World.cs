@@ -60,6 +60,9 @@ namespace RuimteGruis
                     case 4:
                         _obstacles.Add(new HealthPack(pos));
                         break;
+                    case 5:
+                        _obstacles.Add(new Earth(pos));
+                        break;
                     default:
                         _obstacles.Add(new Rock2(pos));
                         break;
@@ -76,6 +79,7 @@ namespace RuimteGruis
                     if(o is ICollectable)
                     {
                         ((ICollectable)o).onPickedUp(_ship,this);
+                        
                         Console.WriteLine(_ship.Health);
                     }
                     

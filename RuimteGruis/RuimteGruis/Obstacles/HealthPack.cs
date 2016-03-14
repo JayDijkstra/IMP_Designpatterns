@@ -36,6 +36,7 @@ namespace RuimteGruis
         {
             ship.Health += 10;
             Debug.WriteLine("Healthpack has been collected!");
+            
         }
 
         public override void Draw()
