@@ -40,6 +40,7 @@
   <ItemGroup>
     <Compile Include="Game1.cs" />
     <Compile Include="GameObject.cs" />
+    <Compile Include="Obstacles\Planet.cs" />
     <Compile Include="Obstacles\Earth.cs" />
     <Compile Include="Obstacles\HealthPack.cs" />
     <Compile Include="Interfaces\ICollidable.cs" />

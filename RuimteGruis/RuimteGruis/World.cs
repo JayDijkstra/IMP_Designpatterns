@@ -63,6 +63,9 @@ namespace RuimteGruis
                     case 5:
                         _obstacles.Add(new Earth(pos));
                         break;
+                    case 6:
+                        _obstacles.Add(new Planet(pos));
+                        break;
                     default:
                         _obstacles.Add(new Rock2(pos));
                         break;
