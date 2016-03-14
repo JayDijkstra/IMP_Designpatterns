@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace RuimteGruis.Obstacles
 {
-    class Earth : Obstacle
+    class Earth : GameObject
     {
         public Earth(Vector2 position) : base(position)
         {

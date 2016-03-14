@@ -7,7 +7,7 @@ using System.Text;
 
 namespace RuimteGruis.Obstacles
 {
-    class Rock2 : Obstacle
+    class Rock2 : GameObject
     {
         public Rock2(Vector2 position): base(position)
         {

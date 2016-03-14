@@ -47,7 +47,6 @@
     <Compile Include="Interfaces\ICollectable.cs" />
     <Compile Include="Interfaces\IDestructable.cs" />
     <Compile Include="Interfaces\IRemovable.cs" />
-    <Compile Include="Obstacles\Obstacle.cs" />
     <Compile Include="Obstacles\Rock.cs" />
     <Compile Include="Obstacles\Rock2.cs" />
     <Compile Include="Obstacles\Satelite.cs" />

@@ -10,6 +10,6 @@ namespace RuimteGruis.Interfaces
     {
         Rectangle BoundingBox { get; }
         int Damage { get; }
-        void onCollision(ICollidable gameObject);
+        void onCollision(Ship ship);
     }
 }

@@ -10,7 +10,7 @@ using System.Diagnostics;
 
 namespace RuimteGruis
 {
-    class HealthPack : Obstacle, ICollectable
+    class HealthPack : GameObject, ICollectable
     {
         public HealthPack(Vector2 position) : base(position)
         {

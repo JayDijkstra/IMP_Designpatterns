@@ -8,7 +8,7 @@ using RuimteGruis.Obstacles;
 
 namespace RuimteGruis
 {
-    class Star : Obstacle
+    class Star : GameObject
     {
         public Star(Vector2 position) : base(position)
         {

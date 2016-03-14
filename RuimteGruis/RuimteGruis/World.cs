@@ -28,9 +28,9 @@ namespace RuimteGruis
 
         public void Update()
         {
-            foreach (Obstacle o in _obstacles)
+            foreach (GameObject go in _obstacles)
             {
-                o.Update();
+                go.Update();
             }
             _ship.Update();
             CheckCollision();
@@ -75,17 +75,21 @@ namespace RuimteGruis
 
         public void CheckCollision()
         {
-            foreach (Obstacle o in _obstacles)
+            foreach (GameObject go in _obstacles)
             {
-                if (_ship.Bounds.Intersects(o.Bounds))
+                if (_ship.Bounds.Intersects(go.Bounds))
                 {
-                    if(o is ICollectable)
+                    if(go is ICollectable)
                     {
-                        ((ICollectable)o).onPickedUp(_ship,this);
+                        ((ICollectable)go).onPickedUp(_ship,this);
                         
                         Console.WriteLine(_ship.Health);
                     }
-                    
+                    if (go is ICollidable)
+                    {
+                        
+                    }
+
                 }
             }
         }
@@ -94,7 +98,7 @@ namespace RuimteGruis
         {
             Game1.spriteBatch.Draw(_background, Vector2.Zero, Color.White);
             _ship.Draw();
-            foreach (Obstacle o in _obstacles)
+            foreach (GameObject o in _obstacles)
             {
                 o.Draw();
             }
