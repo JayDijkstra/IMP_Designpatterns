@@ -87,7 +87,12 @@ namespace RuimteGruis
                     }
                     if (go is ICollidable)
                     {
-                        
+                        ((ICollidable)go).onCollision(_ship);
+                        Console.WriteLine(_ship.Health);
+                    }
+                    if(go is IRemovable)
+                    {
+                        ((IRemovable)go).OnRemove(this);
                     }
 
                 }

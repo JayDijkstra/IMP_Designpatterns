@@ -8,7 +8,7 @@ using System.Text;
 
 namespace RuimteGruis.Obstacles
 {
-    class Rock : GameObject, ICollidable
+    class Rock : GameObject, ICollidable, IRemovable
     {
         public Rectangle BoundingBox
         {
@@ -23,6 +23,14 @@ namespace RuimteGruis.Obstacles
             get
             {
                 return 10;
+            }
+        }
+
+        public bool RemoveMe
+        {
+            get
+            {
+                return true;
             }
         }
 
@@ -45,9 +53,14 @@ namespace RuimteGruis.Obstacles
             base.Draw();
         }
 
-        public void onCollision()
+        public void onCollision(Ship ship)
         {
-            
+            ship.Health -= Damage;
+        }
+
+        public void OnRemove(World world)
+        {
+            world._obstacles.Remove(this);
         }
     }
 }
