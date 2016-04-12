@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPlaneFinal", "..\StrategyPlaneFinal\StrategyPlane\StrategyPlaneFinal.csproj", "{FE543744-E46C-4DD7-9320-930B3A2D6892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPlane", "StrategyPlane.csproj", "{39D5F0A0-F5BF-409A-8354-9D0A8366C3FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE543744-E46C-4DD7-9320-930B3A2D6892}.Debug|x86.ActiveCfg = Debug|x86
+		{FE543744-E46C-4DD7-9320-930B3A2D6892}.Debug|x86.Build.0 = Debug|x86
+		{FE543744-E46C-4DD7-9320-930B3A2D6892}.Release|x86.ActiveCfg = Release|x86
+		{FE543744-E46C-4DD7-9320-930B3A2D6892}.Release|x86.Build.0 = Release|x86
+		{39D5F0A0-F5BF-409A-8354-9D0A8366C3FB}.Debug|x86.ActiveCfg = Debug|x86
+		{39D5F0A0-F5BF-409A-8354-9D0A8366C3FB}.Debug|x86.Build.0 = Debug|x86
+		{39D5F0A0-F5BF-409A-8354-9D0A8366C3FB}.Release|x86.ActiveCfg = Release|x86
+		{39D5F0A0-F5BF-409A-8354-9D0A8366C3FB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

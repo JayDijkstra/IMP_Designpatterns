@@ -1,0 +1,33 @@
+﻿Interface en inheritance
+Je code maakt gebruik van inheritance en interfaces. Beschrijf in het
+opleverdocument waar en waarom je voor beide gekozen hebt.
+
+
+Abstracte class
+Er is gebruik gemaakt van een abstracte class. Beschrijf in het
+opleverdocument waar en waarom je dit toegepast hebt.
+
+
+In de abstracte class is gebruikt gemaakt van een abstracte functie.
+Beschrijf in het opleverdocument waar en waarom je dit toegepast
+hebt.
+
+
+Polymorfisme
+Er is gebruik gemaakt van een generieke loop zodanig dat
+gameobjecten uniform aan te spreken zijn. 
+
+
+Strategy
+Toegepast op een plek zodat het patroon een toegevoegde waarde
+heeft voor de oplossing. Beschrijf in het opleverdocument waar en
+waarom je dit toegepast hebt.
+
+
+Observer
+Toegepast op een plek zodat het patroon een toegevoegde waarde
+heeft voor de oplossing. Beschrijf in het opleverdocument waar en
+waarom je dit toegepast hebt.
+
+
+Je hebt een extra gedrag toegevoegd dat uniek is voor de game 

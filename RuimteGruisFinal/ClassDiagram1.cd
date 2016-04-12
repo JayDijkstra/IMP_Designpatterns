@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RuimteGruisFinal.Game1" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAwAAAAAAAAAAAAAABAgAQAAAAAAAAEQ=</HashCode>
+      <FileName>General\Game1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_world" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RuimteGruisFinal.GameObject" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAoAgAAIAAAABAAAAABAAAAIAgAgAAAA=</HashCode>
+      <FileName>GameObjects\Abstract\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuimteGruisFinal.World">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MARAAAAAAAAAAgAAAAAAAABACAAAAACAAAAAAQAgAAA=</HashCode>
+      <FileName>General\World.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuimteGruisFinal.Ship" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACACCAAAAAgAAAAEQAAAAACAAAAAAIAAAAAAAAEA=</HashCode>
+      <FileName>GameObjects\Game\Ship.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuimteGruisFinal.Background" Collapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAgAAAAAAABAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Game\Background.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuimteGruisFinal.Rock">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAAAAAAgAAAAEQAAAAACAQAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Game\Rock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuimteGruisFinal.Satellite">
+    <Position X="14.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACACAAAAAAgAAAAEQAAAAACAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Game\Satellite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuimteGruisFinal.ProgressBar" Collapsed="true">
+    <Position X="18.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYBAQACAAkAAgAAAAAAAACAICAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>UI\ProgressBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuimteGruisFinal.Obstacle" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Abstract\Obstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuimteGruisFinal.Bomb" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECACAAAAAAAAAAAEQAAAAACEAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Game\Bomb.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuimteGruisFinal.Bullet" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAAAAAAAAAAAEQAAAAACAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Game\Bullet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuimteGruisFinal.Explosion" Collapsed="true">
+    <Position X="23.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Game\Explosion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuimteGruisFinal.Healing" Collapsed="true">
+    <Position X="25.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Game\Healing.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuimteGruisFinal.Planet" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Game\Planet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuimteGruisFinal.PowerUp" Collapsed="true">
+    <Position X="12" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECACAAAAAAAAAAAEQAAAAACEAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Game\PowerUp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuimteGruisFinal.Star" Collapsed="true">
+    <Position X="21" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Game\Star.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuimteGruisFinal.AssetsManager" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAABAAAAAAIAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\AssetsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuimteGruisFinal.JunkGenerator" Collapsed="true">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>General\JunkGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuimteGruisFinal.Program" Collapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="RuimteGruisFinal.ICollidable" Collapsed="true">
+    <Position X="29.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAACAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICollidable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RuimteGruisFinal.IControllable" Collapsed="true">
+    <Position X="31.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Interfaces\IControlable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RuimteGruisFinal.IDestructible" Collapsed="true">
+    <Position X="28" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDestructible.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RuimteGruisFinal.ICollectible" Collapsed="true">
+    <Position X="28" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICollectible.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RuimteGruisFinal.IRemovable" Collapsed="true">
+    <Position X="29.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRemovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
